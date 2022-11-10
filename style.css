@@ -1,0 +1,536 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+body .header {
+  width: 1366px;
+  height: 471px;
+  margin-top: 19px;
+  background-color: #fff;
+}
+body .header .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 85px;
+}
+body .header .left-icon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  display: flex;
+}
+body .header .circle-1 {
+  width: 32px;
+  height: 32px;
+  background-color: #316099;
+  border-radius: 50%;
+}
+body .header .circle-2 {
+  width: 32px;
+  height: 32px;
+  border: 2px solid #316099;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 28px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: white;
+  position: absolute;
+  left: 33.33%;
+}
+body .header .menu {
+  width: 24px;
+  height: 20px;
+}
+body .header .menu div {
+  background-color: #356ead;
+  width: 24px;
+  height: 4px;
+  margin: 4px 0;
+}
+body .header .background-image-header {
+  background-image: url("images/Mask Group.png");
+  height: 250px;
+}
+body .header .blog {
+  color: white;
+  font-size: 44px;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 74px;
+}
+body .header .lorem-blog {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 20px;
+  padding: 16px 293px 0px;
+}
+body .header .input-search {
+  padding: 50px 213px 0px;
+  position: relative;
+}
+body .header .input-search input {
+  width: 940px;
+  height: 56px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  padding-left: 72px;
+}
+body .header .input-search input::-moz-placeholder {
+  color: #1f3f68;
+  font-size: 16px;
+  opacity: 60%;
+}
+body .header .input-search input:-ms-input-placeholder {
+  color: #1f3f68;
+  font-size: 16px;
+  opacity: 60%;
+}
+body .header .input-search input::placeholder {
+  color: #1f3f68;
+  font-size: 16px;
+  opacity: 60%;
+}
+body .header .image-search {
+  background-image: url("images/Vector.png");
+  width: 17.49px;
+  height: 17.49px;
+  position: absolute;
+  bottom: 17.5%;
+  left: 17.5%;
+}
+
+.main {
+  display: flex;
+  background-color: #fff;
+  width: 1366px;
+}
+.main .text-main {
+  width: 380px;
+  margin: 56px 20px 0px 213px;
+  position: relative;
+}
+.main .text-1 {
+  font-size: 20px;
+  color: #356ead;
+  opacity: 80%;
+  font-weight: bold;
+}
+.main .text-2 {
+  color: #1f3f68;
+  font-family: "Open Sans", sans-serif;
+  font-size: 48px;
+  letter-spacing: -1px;
+  margin: 32px 0px;
+}
+.main .text-3 {
+  color: black;
+  opacity: 60%;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+.main .text-4 {
+  font-size: 14px;
+  color: #1f3f68;
+  margin-top: 32px;
+  margin-bottom: 5px;
+}
+.main .text-5 {
+  font-size: 14px;
+  color: #1f3f68;
+  opacity: 40%;
+  letter-spacing: -0.5px;
+}
+.main .image-main-1 {
+  background-image: url("images/Vector (1).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 20%;
+  bottom: 3%;
+}
+.main .image-main-2 {
+  background-image: url("images/Vector (2).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 10%;
+  bottom: 3%;
+}
+.main .image-main {
+  background-image: url("images/Rectangle 5.png");
+  width: 540px;
+  height: 380px;
+  margin-top: 56px;
+}
+
+.block {
+  display: flex;
+  height: 609px;
+  width: 1366px;
+  background-color: #fff;
+  padding: 32px 213px 0px 213px;
+}
+.block .first-block {
+  width: 300px;
+  position: relative;
+}
+.block .image-first-block {
+  background-image: url("images/Rectangle 5 (1).png");
+  width: 300px;
+  height: 200px;
+}
+.block .text-1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 28px;
+  color: #1f3f68;
+  letter-spacing: -3px;
+  margin: 16px 0px 16px 0px;
+}
+.block .text-2 {
+  color: black;
+  opacity: 60%;
+  font-size: 16px;
+  letter-spacing: 4px;
+}
+.block .text-3 {
+  font-size: 14px;
+  color: #1f3f68;
+  margin-top: 16px;
+  margin-bottom: 5px;
+}
+.block .text-4 {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.block .image-main-1 {
+  background-image: url("images/Vector (1).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 15%;
+  bottom: 23%;
+}
+.block .image-main-2 {
+  background-image: url("images/Vector (2).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0%;
+  bottom: 23%;
+}
+.block .second-block {
+  width: 300px;
+  margin: 0px 20px 0px 20px;
+  position: relative;
+}
+.block .image-second-block {
+  background-image: url("images/Rectangle 5 (2).png");
+  width: 300px;
+  height: 200px;
+}
+.block .third-block {
+  width: 300px;
+  position: relative;
+}
+.block .image-third-block {
+  background-image: url("images/Rectangle 5 (3).png");
+  width: 300px;
+  height: 200px;
+}
+.block .text-5 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #356ead;
+  text-align: right;
+  opacity: 80%;
+  margin-top: 70px;
+}
+
+.main-down {
+  width: 1366px;
+  height: 1413px;
+  background-color: white;
+}
+.main-down .block-down {
+  width: 940px;
+  height: 1413px;
+  margin: 0px 293px 0px 213px;
+  padding-top: 56px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.main-down .text-header {
+  font-size: 20px;
+  color: #356ead;
+  opacity: 80%;
+}
+.main-down .block-1 {
+  display: flex;
+  margin-top: 32px;
+}
+.main-down .container-1 {
+  width: 300px;
+  height: 200px;
+  margin-right: 20px;
+}
+.main-down .container-2 {
+  width: 540px;
+  height: 200px;
+  position: relative;
+}
+.main-down .image-block-1 {
+  background-image: url("images/Rectangle 5 (4).png");
+  width: 300px;
+  height: 200px;
+}
+.main-down .par-1 {
+  font-size: 28px;
+  color: #1f3f68;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: -3px;
+}
+.main-down .par-2 {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  letter-spacing: 4px;
+  margin: 25px 0 25px 0;
+}
+.main-down .par-3 {
+  font-size: 14px;
+  color: #1f3f68;
+}
+.main-down .par-4 {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+  margin-top: 5px;
+}
+.main-down .image-par-3 {
+  background-image: url("images/Vector (1).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 55%;
+  bottom: 5%;
+}
+.main-down .image-par-4 {
+  background-image: url("images/Vector (2).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 45%;
+  bottom: 5%;
+}
+.main-down .block-2 {
+  display: flex;
+  margin-top: 32px;
+}
+.main-down .image-block-2 {
+  background-image: url("images/Rectangle 5 (5).png");
+  width: 300px;
+  height: 200px;
+}
+.main-down .block-3 {
+  display: flex;
+  margin-top: 32px;
+}
+.main-down .image-block-3 {
+  background-image: url("images/Rectangle 5 (6).png");
+  width: 300px;
+  height: 200px;
+}
+.main-down .block-4 {
+  display: flex;
+  margin-top: 32px;
+}
+.main-down .image-block-4 {
+  background-image: url("images/Rectangle 5 (7).png");
+  width: 300px;
+  height: 200px;
+}
+.main-down .block-5 {
+  display: flex;
+  margin-top: 32px;
+}
+.main-down .image-block-5 {
+  background-image: url("images/Rectangle 5 (8).png");
+  width: 300px;
+  height: 200px;
+}
+.main-down .text-down {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 56px;
+  padding: 0 20px 0 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #356ead;
+  position: relative;
+}
+.main-down .image-left {
+  background-image: url("images/Vector-left.png");
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  top: 15%;
+  left: 0%;
+}
+.main-down .image-right {
+  background-image: url("images/Vector-right.png");
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  top: 15%;
+  right: 0%;
+}
+
+.footer {
+  width: 1366px;
+  height: 869px;
+  background-color: #fff;
+}
+.footer .footer-image {
+  background-image: url("images/Rectangle 4.png");
+  height: 869px;
+  width: 1270px;
+  position: relative;
+}
+.footer .footer-container {
+  display: flex;
+  width: 1073px;
+  height: 391px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+.footer .footer-container-1 {
+  width: 460px;
+  height: 204px;
+  margin: 91px 180px 96px 213px;
+}
+.footer .footer-text-1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 32px;
+  letter-spacing: 6px;
+}
+.footer .footer-text-2 {
+  font-size: 16px;
+  color: white;
+  opacity: 60%;
+  letter-spacing: 5px;
+}
+.footer .footer-container-2 button {
+  width: 220px;
+  height: 56px;
+  margin-top: 165px;
+  background-color: #5a98d0;
+  border: 1px solid #5a98d0;
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+}
+.footer .left-block {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  display: flex;
+  margin: 105px 16px 39px 0px;
+}
+.footer .circle-1 {
+  width: 32px;
+  height: 32px;
+  background-color: #98c3e8;
+  border-radius: 50%;
+}
+.footer .circle-2 {
+  width: 32px;
+  height: 32px;
+  border: 2px solid #316099;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 28px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: white;
+  position: absolute;
+  left: 33.33%;
+}
+.footer .head-icon-text {
+  display: flex;
+}
+.footer .text-head {
+  margin-top: 98px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+.footer .text-1 {
+  display: flex;
+  width: 299px;
+  color: white;
+  padding-bottom: 24px;
+}
+.footer .text-1 a {
+  color: white;
+  text-decoration: none;
+  margin-left: 16px;
+  letter-spacing: 5px;
+}
+.footer .lorem-text {
+  padding-left: 16px;
+  letter-spacing: 5px;
+}
+.footer .footer-container-down {
+  width: 299px;
+  margin-left: 214px;
+}
+.footer .footer-container-down-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 214px;
+  position: absolute;
+  right: 25%;
+  top: 55%;
+}
+.footer .block-page {
+  color: white;
+  letter-spacing: 1px;
+}
+.footer .first-par {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 36px;
+}
+.footer .another-par {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.footer .text-last {
+  font-size: 16px;
+  color: white;
+  opacity: 40%;
+  margin-top: 65px;
+}/*# sourceMappingURL=style.css.map */

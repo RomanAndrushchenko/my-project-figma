@@ -1,0 +1,141 @@
+.main-down {
+  width: 1366px;
+  height: 1413px;
+  background-color: white;
+  .block-down {
+    width: 940px;
+    height: 1413px;
+    margin: 0px 293px 0px 213px;
+    padding-top: 56px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .text-header {
+    font-size: 20px;
+    color: #356ead;
+    opacity: 80%;
+  }
+  .block-1 {
+    display: flex;
+    margin-top: 32px;
+  }
+  .container-1 {
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+  }
+  .container-2 {
+    width: 540px;
+    height: 200px;
+    position: relative;
+  }
+  .image-block-1 {
+    background-image: url("images/Rectangle\ 5\ \(4\).png");
+    width: 300px;
+    height: 200px;
+  }
+  .par-1 {
+    font-size: 28px;
+    color: #1f3f68;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: -3px;
+  }
+  .par-2 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    letter-spacing: 4px;
+    margin: 25px 0 25px 0;
+  }
+  .par-3 {
+    font-size: 14px;
+    color: #1f3f68;
+  }
+  .par-4 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 5px;
+  }
+  .image-par-3 {
+    background-image: url("images/Vector\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 55%;
+    bottom: 5%;
+  }
+  .image-par-4 {
+    background-image: url("images/Vector\ \(2\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 45%;
+    bottom: 5%;
+  }
+  .block-2 {
+    display: flex;
+    margin-top: 32px;
+  }
+  .image-block-2 {
+    background-image: url("images/Rectangle\ 5\ \(5\).png");
+    width: 300px;
+    height: 200px;
+  }
+  .block-3 {
+    display: flex;
+    margin-top: 32px;
+  }
+  .image-block-3 {
+    background-image: url("images/Rectangle\ 5\ \(6\).png");
+    width: 300px;
+    height: 200px;
+  }
+  .block-4 {
+    display: flex;
+    margin-top: 32px;
+  }
+  .image-block-4 {
+    background-image: url("images/Rectangle\ 5\ \(7\).png");
+    width: 300px;
+    height: 200px;
+  }
+  .block-5 {
+    display: flex;
+    margin-top: 32px;
+  }
+  .image-block-5 {
+    background-image: url("images/Rectangle\ 5\ \(8\).png");
+    width: 300px;
+    height: 200px;
+  }
+  .text-down {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+    padding: 0 20px 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #356ead;
+    position: relative;
+  }
+  .image-left {
+    background-image: url("images/Vector-left.png");
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    top: 15%;
+    left: 0%;
+  }
+  .image-right {
+    background-image: url("images/Vector-right.png");
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    top: 15%;
+    right: 0%;
+  }
+}

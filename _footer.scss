@@ -1,0 +1,130 @@
+.footer {
+  width: 1366px;
+  height: 869px;
+  background-color: #fff;
+  .footer-image {
+    background-image: url("images/Rectangle\ 4.png");
+    height: 869px;
+    width: 1270px;
+    position: relative;
+  }
+  .footer-container {
+    display: flex;
+    width: 1073px;
+    height: 391px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  }
+  .footer-container-1 {
+    width: 460px;
+    height: 204px;
+    margin: 91px 180px 96px 213px;
+  }
+  .footer-text-1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 32px;
+    letter-spacing: 6px;
+  }
+  .footer-text-2 {
+    font-size: 16px;
+    color: white;
+    opacity: 60%;
+    letter-spacing: 5px;
+  }
+  .footer-container-2 button {
+    width: 220px;
+    height: 56px;
+    margin-top: 165px;
+    background-color: #5a98d0;
+    border: 1px solid #5a98d0;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+  }
+  .left-block {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    display: flex;
+    margin: 105px 16px 39px 0px;
+  }
+  .circle-1 {
+    width: 32px;
+    height: 32px;
+    background-color: #98c3e8;
+    border-radius: 50%;
+  }
+  .circle-2 {
+    width: 32px;
+    height: 32px;
+    border: 2px solid #316099;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 28px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+    position: absolute;
+    left: 33.33%;
+  }
+  .head-icon-text {
+    display: flex;
+  }
+  .text-head {
+    margin-top: 98px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+  }
+  .text-1 {
+    display: flex;
+    width: 299px;
+    color: white;
+
+    padding-bottom: 24px;
+  }
+  .text-1 a {
+    color: white;
+    text-decoration: none;
+    margin-left: 16px;
+    letter-spacing: 5px;
+  }
+  .lorem-text {
+    padding-left: 16px;
+    letter-spacing: 5px;
+  }
+  .footer-container-down {
+    width: 299px;
+    margin-left: 214px;
+  }
+  .footer-container-down-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 214px;
+    position: absolute;
+    right: 25%;
+    top: 55%;
+  }
+  .block-page {
+    color: white;
+    letter-spacing: 1px;
+  }
+  .first-par {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 36px;
+  }
+  .another-par {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .text-last {
+    font-size: 16px;
+    color: white;
+    opacity: 40%;
+    margin-top: 65px;
+  }
+}
